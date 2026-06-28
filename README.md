@@ -42,6 +42,10 @@ Validated in live games against chess.com bots:
 Beating a 3200 engine bot is the headline: that opponent is itself an engine, so
 this is a genuine engine-vs-engine win, not just "crushes weak bots."
 
+![Checkmate vs Komodo "Maximum" (3200)](assets/komodo-win.png)
+
+*Checkmate against the 3200 bot — 1 Brilliant, 33 Best, 14 Excellent moves.*
+
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) with a Playwright MCP server
