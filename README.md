@@ -5,7 +5,14 @@ chess on [chess.com](https://www.chess.com) at grandmaster strength, by driving
 the browser with Playwright and choosing every move with the
 [Stockfish](https://stockfishchess.org/) engine.
 
-## Why this exists
+> **Why I built this (the honest version):** Pure curiosity. After watching a
+> bunch of YouTube videos of ChatGPT and other AI tools playing hilariously bad
+> chess — hanging pieces, making illegal moves, losing to total beginners — I
+> wondered: if you stopped asking the model to "think" and instead handed it a
+> real engine, would it actually win? Turns out, yes. Emphatically. This was a
+> weekend experiment, not a serious tool.
+
+## How it works
 
 Large language models are *bad* at chess. They try to hold the board in their
 head, hallucinate piece positions, and miss one-move tactics — which is why a
