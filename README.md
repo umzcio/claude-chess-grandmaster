@@ -56,9 +56,17 @@ Brilliant** move (`Re3!!`) and **zero blunders** — chess.com graded the play a
 **2600**, versus the 3200 bot's **88.4% / 2050** (it blundered). The engine
 out-accuracied its own rating tier.
 
-![The full game vs Komodo "Maximum" (3200), ending in checkmate](assets/komodo-win.gif)
+**Game 2 — as White** (mate in 58):
 
-*The entire game against the 3200 bot — opening to **Rh8#** (1-0). 1 Brilliant, 33 Best, 14 Excellent moves.*
+![The full game vs Komodo "Maximum" (3200) as White, ending in checkmate](assets/komodo-win.gif)
+
+*Opening to **Rh8#** (1-0). 1 Brilliant, 33 Best, 14 Excellent moves.*
+
+**Game 3 — as Black, on a flipped board** (mate in 55):
+
+![The full game vs Komodo "Maximum" (3200) as Black, ending in checkmate](assets/komodo-win-black.gif)
+
+*Opening to **Qdb1#** (0-1). 99.1% accuracy, 1 Brilliant (`Re3!!`), 0 blunders, rated 2600 — every move played from the flipped Black side.*
 
 ## Requirements
 
