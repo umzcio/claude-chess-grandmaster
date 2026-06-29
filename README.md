@@ -37,17 +37,24 @@ real Playwright mouse clicks at square centers    (play_move.js)
    ▼  move played, opponent's reply captured
 ```
 
-## Results
+## Track record
 
-Validated in live games against chess.com bots:
+Live games against chess.com bots — engine-backed skill vs. the bot:
 
-| Opponent | Rating | Result |
-| --- | --- | --- |
-| **Martin** | 250 | Win by checkmate in 18 (7 Best / 8 Excellent) |
-| **Maximum** (Komodo) | **3200** | **Win by checkmate in 58** (1 Brilliant / 33 Best / 14 Excellent) |
+| # | Opponent | Bot rating | We played | Result | Our accuracy | Bot accuracy |
+|---|----------|-----------|-----------|--------|--------------|--------------|
+| 1 | Martin | 250 | White | ✅ Mate in 18 | — | — |
+| 2 | Maximum (Komodo) | 3200 | White | ✅ Mate in 58 | — | — |
+| 3 | Maximum (Komodo) | 3200 | Black | ✅ Mate in 55 | **99.1%** | 88.4% |
 
-Beating a 3200 engine bot is the headline: that opponent is itself an engine, so
-this is a genuine engine-vs-engine win, not just "crushes weak bots."
+**Record vs Komodo "Maximum" (3200): 2–0–0.**
+
+Beating a 3200 bot is the headline — that opponent is itself an engine, so these
+are genuine engine-vs-engine wins, not just "crushes weak bots." Game 3 is the
+standout: playing **Black**, the skill scored **99.1% accuracy** with **1
+Brilliant** move (`Re3!!`) and **zero blunders** — chess.com graded the play at
+**2600**, versus the 3200 bot's **88.4% / 2050** (it blundered). The engine
+out-accuracied its own rating tier.
 
 ![The full game vs Komodo "Maximum" (3200), ending in checkmate](assets/komodo-win.gif)
 
